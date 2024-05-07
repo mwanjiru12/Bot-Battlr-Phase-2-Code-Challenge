@@ -1,0 +1,73 @@
+.botSpecs {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.botSpecs > button {
+    background: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    margin-left: -550px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.botSpecs > button:hover {
+    font-size: 30px;
+}
+
+.sliderContainer {
+    margin: 5px;
+    background: #c4c4c4; /* Greyish color */
+    width: 200px;
+    height: 20px;
+    position: relative;
+}
+
+.slider {
+    position: absolute;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+.properties {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.properties > button {
+    margin: 25px 20px;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 22px;
+    border-radius: 0px;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(145deg, #676767, #6d6d6d); /* Greyish gradient */
+    box-shadow: 7px 7px 14px #4d4d4d, /* Greyish shadow */
+        -7px -7px 14px #898989; /* Greyish shadow */
+}
+
+.specsCont {
+    display: flex;
+    align-items: center;
+}
+
+.botName {
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.catchPhrase {
+    font-size: 12px;
+}
