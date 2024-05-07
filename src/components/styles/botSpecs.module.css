@@ -22,7 +22,7 @@
 
 .sliderContainer {
     margin: 5px;
-    background: #c4c4c4; /* Greyish color */
+    background: #c4c4c4; 
     width: 200px;
     height: 20px;
     position: relative;
@@ -51,9 +51,9 @@
     border-radius: 0px;
     color: white;
     font-size: 20px;
-    background: linear-gradient(145deg, #676767, #6d6d6d); /* Greyish gradient */
-    box-shadow: 7px 7px 14px #4d4d4d, /* Greyish shadow */
-        -7px -7px 14px #898989; /* Greyish shadow */
+    background: linear-gradient(145deg, #676767, #6d6d6d); 
+    /*box-shadow: 7px 7px 14px #4d4d4d, /* Greyish shadow */
+       /* -7px -7px 14px #898989; /* Greyish shadow */
 }
 
 .specsCont {
