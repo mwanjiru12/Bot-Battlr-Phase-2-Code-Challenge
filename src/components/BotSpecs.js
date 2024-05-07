@@ -13,7 +13,7 @@ export default function BotSpecs({ bot, handleGoBack, handleEnlist, handleRetire
         "Witch": "🚀"
     }
     return <div className={styles.botSpecs}>
-        <button onClick={handleGoBack}>⬅️</button>
+        <button onClick={handleGoBack}>GoBack</button>
         <div className={styles.specsCont}>
             <div>
                 <img src={bot.avatar_url} alt={bot.name} />
