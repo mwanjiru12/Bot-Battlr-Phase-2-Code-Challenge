@@ -1,7 +1,6 @@
 
 import { useSpring, animated } from 'react-spring'
 import styles from './styles/botSpecs.module.css'
-import cardStyles from './styles/botCollection.module.css'
 
 export default function BotSpecs({ bot, handleGoBack, handleEnlist, handleRetire }) {
     const emojis = {
